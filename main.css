@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Labrada:ital,wght@1,300;1,400&family=Shantell+Sans:ital,wght@0,400;1,500&family=Ubuntu:ital,wght@0,700;1,400&display=swap');
+
+:root {
+    --primary-color: #e76f51;
+    --secondary-color: #2a9d8f;
+    --light-color: #f8f9fa;
+    --dark-color: #6c757d;
+    --max-width: 1100px;
+}
+
+.main-nav {
+   
+    position: sticky;
+}
+
+.main-nav .container {
+    background-color: #cbcfd3;
+    display: grid;
+    grid-template-columns:  3fr 2fr;
+    padding: 1rem;
+    text-align: center;
+}
+
+.logo {
+    height: 75px;
+    float: left;
+    
+}
+
+.social {
+    margin-right: 20px;
+    justify-self: end;
+
+}
+
+.social a {
+    padding: 2px;
+    color: var(--dark-color);
+}
+
+.btn {
+    color: #fff;
+    background-color: var(--primary-color);
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-top: 5px;
+    width: 200px;
+}
+
+.btn:hover {
+    color: var(--primary-color);
+    background-color: var(--dark-color);
+    transition: 0.6s;
+}
+
+.icon1:hover:hover {
+    color: #2159e8;
+    transition: 0.6s;
+}
+
+.icon2:hover:hover {
+    color: #0ca0d6;
+    transition: 0.6s;
+}
+
+.icon3:hover:hover {
+    color: #e807b4;
+    transition: 0.6s;
+}
